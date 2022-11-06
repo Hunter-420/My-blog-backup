@@ -1,6 +1,6 @@
 # AI |Count Object
 
-Count object is the task of computer vision. There are many kinds of computer vision library are avilable in python to perform this task like OpenCV, Tenserflow,pytorch,cvlib.
+**Count object** is the task of computer vision. There are many kinds of computer vision library are avilable in python to perform this task like OpenCV, Tenserflow,pytorch,cvlib.
 
 But here we are going to use cvlib. If you don't know what is this library & why we are going to use it??
 
@@ -75,8 +75,9 @@ plt.imshow(output)
 plt.show()
 print("The numbers of car in this image : " +str(label.count("car")))
 ```
-
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1667740253861/AhSwtjYed.png align="left")
+**The numbers of car in this image : 7**
+
 In similar way we can also able to detect the person. For that we again took another image of people dataset
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1667740272826/ftn8f4_ag.png align="left")
@@ -95,6 +96,7 @@ print("The numbers of person in image : "+str(label.count("person")))
 ```
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1667740312447/XiNkBF1Ct.png align="left")
+**The numbers of person in image : 18**
 Thank you
 
 [Nischal Khanal | Facebook](https://www.facebook.com/nischal.khanal69/)
